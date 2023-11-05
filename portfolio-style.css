@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Poiret One';
+    src: url('PoiretOne-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Tourney';
+    src: url('Tourney-Regular.ttf') format('truetype');
+}
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    font-family: 'Poiret One', monospace;
+  }
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .gallery img {
+    width: 30%;
+    height: auto;
+    border: 3px solid #4CABA6;
+    transition: filter 0.2s;
+  }
+
+  .gallery img:hover {
+    filter: brightness(1.5);
+  }
+
+
+  .list {
+    background-color: #4CABA6; 
+    color: white;
+    padding: 20px;
+    list-style-type: circle;
+    font-family: 'Poiret One', monospace;
+  }
+
+  .list li {
+    margin: 5px 0; 
+  }
+
+  .bottom-container {
+    background-color: #4CABA6;
+    display: flex;
+    margin-right: -200px;
+  }
+
+  .skills {
+    color: white;
+    font-family: 'Tourney', sans-serif;
+    width: 25%;
+    padding: 20px;
+  }
+
+  .skills a {
+    color: white;
+    font-family: 'Tourney', sans-serif;
+    text-decoration: none;
+  }
